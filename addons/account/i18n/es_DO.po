@@ -30,9 +30,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: account
@@ -706,11 +703,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:account.report_agedpartnerbalance
 #, fuzzy
 msgid "<strong>Partner's:</strong>"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"<strong>Del Contacto:</strong>\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"<strong>Asociado:</strong>"
+msgstr "<strong>Asociado:</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_agedpartnerbalance
@@ -1081,11 +1074,7 @@ msgstr "Informe Contable de Cuenta Común "
 #: model:ir.model,name:account.model_account_common_partner_report
 #, fuzzy
 msgid "Account Common Partner Report"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Informe de Cuenta Común de Contacto\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Informe de Cuenta Común de Asociado"
+msgstr "Informe de Cuenta Común de Asociado"
 
 #. module: account
 #: model:ir.model,name:account.model_account_common_report
@@ -1149,11 +1138,7 @@ msgstr "Número de cuenta"
 #: model:ir.model,name:account.model_account_report_partner_ledger
 #, fuzzy
 msgid "Account Partner Ledger"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Informe de Cuenta Común de Contacto\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Informe de Cuenta Común de Asociado"
+msgstr "Informe de Cuenta Común de Asociado"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_partner_property_account_payable_id
@@ -1515,11 +1500,7 @@ msgstr "Afectar Impuestos Subsiguientes"
 #: model:ir.ui.view,arch_db:account.account_aged_balance_view
 #, fuzzy
 msgid "Aged Partner Balance"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Balance Vencido de Contacto\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Balance Vencido de Asociado"
+msgstr "Balance Vencido de Asociado"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_aged_balance_view
@@ -1530,15 +1511,6 @@ msgid ""
 "you request an interval of 30 days Odoo generates an analysis of creditors "
 "for the past month, past two months, and so on."
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"El Balance Vencido de Contacto es un informe detallado de sus cuentas por "
-"cobrar por intervalos. Al abrir el informe Odoo solicita el nombre de la "
-"compañía, la Fecha de Inicio y el tamaño del intervalo a analizar (en días). "
-"Posteriormente Odoo calcula una tabla de balance en crédito a partir de la "
-"Fecha de inicio. Si solicita un intervalo de 30 días, Odoo genera un "
-"análisis de los deudores del pasado mes, de los pasados dos meses, y así "
-"sucesivamente.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "El Balance Vencido de Asociado es un informe detallado de sus cuentas por "
 "cobrar por intervalos. Al abrir el informe Odoo solicita el nombre de la "
 "compañía, la Fecha de Inicio y el tamaño del intervalo a analizar (en días). "
@@ -1921,9 +1893,6 @@ msgstr "Aplicar solo si el país de envío o facturación coincide."
 #, fuzzy
 msgid "Apply only if partner has a VAT number."
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Aplicar solo si el contacto tiene un NCF.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "Aplicar solo si el asociado tiene un NCF."
 
 #. module: account
@@ -2845,11 +2814,7 @@ msgstr "Compañías"
 #: model:ir.model.fields,field_description:account.field_res_partner_ref_company_ids
 #, fuzzy
 msgid "Companies that refers to partner"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Compañías que se refieren a un contacto\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Compañías que se refieren a un asociado"
+msgstr "Compañías que se refieren a un asociado"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_abstract_payment_company_id
@@ -4152,11 +4117,7 @@ msgstr "Gastos"
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_reference
 #, fuzzy
 msgid "External Reference"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Referencia del Contacto\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Referencia del Asociado"
+msgstr "Referencia del Asociado"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -5002,10 +4963,6 @@ msgid ""
 "In order to pay multiple invoices at once, they must belong to the same "
 "commercial partner."
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Para pagar múltiples facturas a la vez tienen que pertenecer al mismo "
-"contacto comercial.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "Para pagar múltiples facturas a la vez tienen que pertenecer al mismo "
 "asociado comercial."
 
@@ -5442,11 +5399,7 @@ msgstr "Diario"
 #: selection:account.report.general.ledger,sortby:0
 #, fuzzy
 msgid "Journal & Partner"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Diario y Contacto\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Diario y Asociado"
+msgstr "Diario y Asociado"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_move_journal_line
@@ -5537,11 +5490,7 @@ msgstr "Nombre del Diario"
 #: model:ir.ui.view,arch_db:account.report_generalledger
 #, fuzzy
 msgid "Journal and Partner"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Diario y Contacto\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Diario y Asociado"
+msgstr "Diario y Asociado"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_invoice_report_search
@@ -5836,11 +5785,6 @@ msgid ""
 "It is set either if there's not at least an unreconciled debit and an "
 "unreconciled credit or if you click the \"Done\" button."
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Última vez que se conciliaron facturas y pagos de este contacto. Se "
-"establece incluso si hay al menos un débito o crédito por conciliar, o si "
-"pulsa el botón \"Hecho\".\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "Última vez que se conciliaron facturas y pagos de este asociado. Se "
 "establece incluso si hay al menos un débito o crédito por conciliar, o si "
 "pulsa el botón \"Hecho\"."
@@ -6861,11 +6805,7 @@ msgstr "Conciliación parcial"
 #: model:ir.ui.view,arch_db:account.view_account_payment_search
 #, fuzzy, python-format
 msgid "Partner"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Contacto\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Asociado"
+msgstr "Asociado"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_report_commercial_partner_id
@@ -6885,41 +6825,25 @@ msgstr "Libro mayor"
 #: model:ir.actions.act_window,name:account.act_account_partner_ledger_payable
 #, fuzzy
 msgid "Partner Ledger: Payable"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Referencia del Contacto\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Referencia del Asociado"
+msgstr "Referencia del Asociado"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.act_account_partner_ledger_receivable
 #, fuzzy
 msgid "Partner Ledger: Receivable"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Referencia del Contacto\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Referencia del Asociado"
+msgstr "Referencia del Asociado"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line_ref
 #, fuzzy
 msgid "Partner Reference"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Referencia del Contacto\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Referencia del Asociado"
+msgstr "Referencia del Asociado"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line_partner_name
 #, fuzzy
 msgid "Partner name"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Nombre del contacto\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Nombre del asociado"
+msgstr "Nombre del asociado"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_abstract_payment_partner_type
@@ -6927,11 +6851,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_account_register_payments_partner_type
 #, fuzzy
 msgid "Partner type"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Tipo de contacto\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Tipo de asociado"
+msgstr "Tipo de asociado"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_aged_trial_balance_result_selection
@@ -6939,21 +6859,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_account_report_partner_ledger_result_selection
 #, fuzzy
 msgid "Partner's"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Del Contacto\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"De Asociados"
+msgstr "Asociado"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_agedpartnerbalance
 #, fuzzy
 msgid "Partners"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Contactos\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Asociados"
+msgstr "Asociados"
 
 #. module: account
 #: code:addons/account/models/account_journal_dashboard.py:96
@@ -8137,22 +8049,14 @@ msgstr ""
 #: code:addons/account/static/src/js/account_reconciliation_widgets.js:1759
 #, fuzzy, python-format
 msgid "Select Partner"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Seleccionar Contacto\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Seleccionar Asociado"
+msgstr "Seleccionar Asociado"
 
 #. module: account
 #. openerp-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:234
 #, fuzzy, python-format
 msgid "Select a partner or choose a counterpart"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Seleccione un contacto o elija una contraparte\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Seleccione un asociado o elija una contraparte"
+msgstr "Seleccione un asociado o elija una contraparte"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment_term_line_value
@@ -8942,10 +8846,6 @@ msgstr ""
 msgid ""
 "The fiscal position will determine taxes and accounts used for the partner."
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"La posición fiscal determinará los impuestos y cuentas utilizados para el "
-"contacto.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "La posición fiscal determinará los impuestos y cuentas utilizados para el "
 "asociado."
 
@@ -9024,11 +8924,7 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_invoice_account_id
 #, fuzzy
 msgid "The partner account used for this invoice."
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"La cuenta de contacto utilizada para esta factura.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"La cuenta de asociado utilizada para esta factura."
+msgstr "La cuenta de asociado utilizada para esta factura."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_res_partner_has_unreconciled_entries
@@ -9037,10 +8933,6 @@ msgid ""
 "The partner has at least one unreconciled debit and credit since last time "
 "the invoices & payments matching was performed."
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"El contacto tiene al menos un débito o crédito no conciliado desde la última "
-"vez que se realizó la conciliación de facturas y pagos.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "El asociado tiene al menos un débito o crédito no conciliado desde la última "
 "vez que se realizó la conciliación de facturas y pagos."
 
@@ -9051,10 +8943,6 @@ msgid ""
 "The partner has to be the same on all lines for receivable and payable "
 "accounts!"
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"¡El contacto debe ser el mismo en todos los apuntes de cuentas por cobrar y "
-"por pagar!\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "¡El asociado debe ser el mismo en todos los apuntes de cuentas por cobrar y "
 "por pagar!"
 
@@ -9062,11 +8950,7 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_invoice_reference
 #, fuzzy
 msgid "The partner reference of this invoice."
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"La referencia del contacto para esta factura.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"La referencia del asociado para esta factura."
+msgstr "La referencia del asociado para esta factura."
 
 #. module: account
 #: code:addons/account/models/account_payment.py:334
@@ -9216,11 +9100,7 @@ msgstr "Esta cuenta se utilizará en facturas para valorar ventas."
 msgid ""
 "This account will be used instead of the default one as the payable account "
 "for the current partner"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Esta cuenta se utilizará en lugar de la cuenta por defecto como la cuenta "
-"por pagar del contacto actual.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
+msgstr
 "Esta cuenta se utilizará en lugar de la cuenta por defecto como la cuenta "
 "por pagar del asociado actual."
 
@@ -9231,10 +9111,6 @@ msgid ""
 "This account will be used instead of the default one as the receivable "
 "account for the current partner"
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Esta cuenta se utilizará en lugar de la cuenta por defecto como la cuenta "
-"por cobrar del contacto actual.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "Esta cuenta se utilizará en lugar de la cuenta por defecto como la cuenta "
 "por cobrar del asociado actual."
 
@@ -9359,11 +9235,6 @@ msgid ""
 "statement in electronic format, when the partner doesn't exist yet in the "
 "database (or cannot be found)."
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Este campo se usa para guardar el nombre de un tercero cuando se importan "
-"estados de cuenta de banco en formato electrónico, cuando el contacto aún no "
-"existe en la base de datos (o no puede ser encontrado).\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "Este campo se usa para guardar el nombre de un tercero cuando se importan "
 "estados de cuenta de banco en formato electrónico, cuando el asociado aún no "
 "existe en la base de datos (o no puede ser encontrado)."
@@ -9760,11 +9631,7 @@ msgstr "Unidad de medida"
 #: code:addons/account/report/account_aged_partner_balance.py:264
 #, fuzzy, python-format
 msgid "Unknown Partner"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Contacto\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Asociado"
+msgstr "Asociado desconocido"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -10242,10 +10109,6 @@ msgid ""
 "You can check this box to mark this journal item as a litigation with the "
 "associated partner"
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Puede marcar esta casilla para indicar que el apunte contable corresponde a "
-"un litigio con el contacto.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "Puede marcar esta casilla para indicar que el apunte contable corresponde a "
 "un litigio con el asociado."
 
@@ -10505,9 +10368,6 @@ msgstr "Tiene que definir una Fecha de inicio"
 #, fuzzy, python-format
 msgid "You must first select a partner!"
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"¡Antes debe seleccionar un contacto!\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "¡Antes ha de seleccionar un asociado!"
 
 #. module: account

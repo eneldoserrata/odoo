@@ -29,9 +29,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: sale_stock
@@ -283,11 +280,7 @@ msgstr "Enviamos todos los productos a la vez, y no permitir back orders"
 #: selection:sale.config.settings,default_picking_policy:0
 #, fuzzy
 msgid "Ship products when some are available, and allow back orders"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Enviar productos cuando estan disponibles y permitir back orders\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Enviar prodcutos cuando estan disponibles y permitir back orders"
+msgstr "Enviar prodcutos cuando estan disponibles y permitir back orders"
 
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_config_settings_module_delivery

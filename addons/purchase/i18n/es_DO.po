@@ -29,9 +29,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: purchase
@@ -71,11 +68,6 @@ msgid ""
 "Creates the dropship Route and add more complex tests\n"
 "-This installs the module stock_dropshipping."
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"\n"
-"Crea la Ruta dropship y añade pruebas más complejas-Este instala el módulo "
-"stock_dropshipping.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "\n"
 "Crea la Ruta dropship y añadir pruebas-Este más complejas instala el módulo "
 "social dropshipping."
@@ -91,72 +83,44 @@ msgstr " Comprar"
 #: model:ir.model.fields,field_description:purchase.field_product_template_purchase_count
 #, fuzzy
 msgid "# Purchases"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"# Compras\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Nº compras"
+msgstr "Nº compras"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_partner_supplier_invoice_count
 #, fuzzy
 msgid "# Vendor Bills"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"# Facturas de Proveedores\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"# Facturas de proveedores"
+msgstr "# Facturas de proveedores"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_invoice_count
 #, fuzzy
 msgid "# of Invoices"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"# de facturas\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Nº de facturas"
+msgstr "Nº de facturas"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_nbr_lines
 #, fuzzy
 msgid "# of Lines"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"# de Líneas\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"# de líneas"
+msgstr "# de líneas"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_partner_purchase_order_count
 #, fuzzy
 msgid "# of Purchase Order"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"# de Orden de Compra\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Nº de orden de compra"
+msgstr "Nº de orden de compra"
 
 #. module: purchase
 #: model:mail.template,subject:purchase.email_template_edi_purchase
 #: model:mail.template,subject:purchase.email_template_edi_purchase_done
 #, fuzzy
 msgid "${object.company_id.name} Order (Ref ${object.name or 'n/a' })"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"${object.company_id.name} Orden (Ref ${object.name or 'n/a' })\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"${object.company_id.name} Pedido (Ref ${object.name or 'n/a' })"
+msgstr "${object.company_id.name} Pedido (Ref ${object.name or 'n/a' })"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 #, fuzzy
 msgid "<strong>Date Req.</strong>"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"<strong>Fecha de Solicitud</strong>:\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"<strong>Fecha de Apertura</strong>:<br/>"
+msgstr "<strong>Fecha de Apertura</strong>:<br/>"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.report_purchaseorder_document
@@ -168,31 +132,19 @@ msgstr "<strong>Descripción</strong>"
 #: model:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 #, fuzzy
 msgid "<strong>Expected Date</strong>"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"<strong>Fecha Prevista</strong>\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"<strong>Fecha prevista</strong>"
+msgstr "<strong>Fecha prevista</strong>"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 #, fuzzy
 msgid "<strong>Net Price</strong>"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"<strong>Precio Neto</strong>\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"<strong>Precio neto</strong>"
+msgstr "<strong>Precio neto</strong>"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 #, fuzzy
 msgid "<strong>Order Date:</strong>"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"<strong>Fecha de Orden:</strong>\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"<strong>Fecha de orden:</strong>"
+msgstr "<strong>Fecha de orden:</strong>"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.report_purchaseorder_document
@@ -240,11 +192,7 @@ msgstr "<strong>Su Referencia de la orden</strong>"
 #: model:ir.model.fields,field_description:purchase.field_account_invoice_purchase_id
 #, fuzzy
 msgid "Add Purchase Order"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Añadir Orden de Compra\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Añadir la Orden de Compra"
+msgstr "Añadir la Orden de Compra"
 
 #. module: purchase
 #: model:res.groups,name:purchase.group_advance_bidding
@@ -255,21 +203,13 @@ msgstr "Proceso de licitación avanzado"
 #: model:ir.model.fields,field_description:purchase.field_purchase_config_settings_group_advance_purchase_requisition
 #, fuzzy
 msgid "Advanced Calls for Tenders"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Llamados avanzados para licitaciones\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Llamadas avanzadas para Concursos"
+msgstr "Llamadas avanzadas para Concursos"
 
 #. module: purchase
 #: selection:purchase.config.settings,group_advance_purchase_requisition:0
 #, fuzzy
 msgid "Advanced call for tender (choose products from different RFQ)"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Llamado avanzado de licitación (elegir productos de diferentes SdC)\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Llamada avanzada de licitación (elegir productos de diferentes RFP)"
+msgstr "Llamada avanzada de licitación (elegir productos de diferentes RFP)"
 
 #. module: purchase
 #: selection:purchase.config.settings,module_stock_dropshipping:0
@@ -287,10 +227,6 @@ msgstr "Permitir el uso e importación de listas de precios de proveedores"
 msgid ""
 "Allow using call for tenders to get quotes from multiple suppliers (advanced)"
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Permitir el uso de llamado a licitación para obtener cotizaciones de varios "
-"proveedores (avanzado)\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "Permitir el uso de licitación para obtener cotizaciones de varias "
 "proveedores (avanzado)"
 
@@ -322,11 +258,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_account_analytic_id
 #, fuzzy
 msgid "Analytic Account"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Cuenta Analítica\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Cuenta analítica"
+msgstr "Cuenta analítica"
 
 #. module: purchase
 #: model:res.groups,name:purchase.group_analytic_accounting
@@ -342,31 +274,19 @@ msgstr "Aplicar"
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_date_approve
 #, fuzzy
 msgid "Approval Date"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Fecha de Aprobación\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Fecha de aprobación"
+msgstr "Fecha de aprobación"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
 #, fuzzy
 msgid "Approve Order"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Aprobar Orden\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Aprobar orden"
+msgstr "Aprobar orden"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_procurement_ids
 #, fuzzy
 msgid "Associated Procurements"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Adquisiciones Asociadas\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Adquisiciones asociadas"
+msgstr "Adquisiciones asociadas"
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_account_invoice_line_purchase_id
@@ -408,11 +328,7 @@ msgstr "Regla de compra"
 #: model:ir.ui.view,arch_db:purchase.purchase_order_calendar
 #, fuzzy
 msgid "Calendar View"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Vista Calendario\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Vista calendario"
+msgstr "Vista calendario"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_config_settings_module_purchase_requisition
@@ -429,14 +345,6 @@ msgid ""
 "one vendor or if you want a Call for Tenders to compare offers from several "
 "vendors."
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Las licitaciones se utilizan cuando se desea generar peticiones de oferta a "
-"varios proveedores para un determinado conjunto de productos.\n"
-"Puede configurar por producto si hace una solicitud de cotizacion "
-"directamente\n"
-"a un proveedor o si desea un llamado a licitación para comparar las ofertas "
-"de varios proveedores.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "Las licitaciones se utilizan cuando se desea generar peticiones de oferta a "
 "varios proveedores para un determinado conjunto de productos.\n"
 "Puede configurar por producto si lo hace directamente una solicitud de "
@@ -450,11 +358,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:purchase.product_template_search_view_purchase
 #, fuzzy
 msgid "Can be Purchased"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Puede ser Comprado\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Puede ser comprado"
+msgstr "Puede ser comprado"
 
 #. module: purchase
 #: code:addons/purchase/purchase.py:733
@@ -463,10 +367,6 @@ msgid ""
 "Can not cancel a procurement related to a purchase order. Please cancel the "
 "purchase order first."
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"No se puede cancelar una adquisición relacionada con una orden de compra. "
-"Cancele primero la orden de compra.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "No se puede cancelar una contratación relacionada con una orden de compra. "
 "Cancele primero la orden de compra."
 
@@ -474,11 +374,7 @@ msgstr ""
 #: code:addons/purchase/stock.py:78
 #, fuzzy, python-format
 msgid "Can't find any generic Buy route."
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"No se puede encontrar ninguna ruta de Compra genérica.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"No se puede encontrar ninguna ruta de 'Compra' genérica."
+msgstr "No se puede encontrar ninguna ruta de 'Compra' genérica."
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -507,11 +403,7 @@ msgstr "Haga clic para grabar una nueva factura de proveedor."
 #: model:ir.actions.act_window,help:purchase.action_invoice_pending
 #, fuzzy
 msgid "Click to create a draft invoice."
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Haga clic para crear una factura borrador.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Haga clic para crear una factura proforma."
+msgstr "Haga clic para crear una factura proforma."
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.purchase_form_action
@@ -546,11 +438,7 @@ msgstr "Haga clic para definit un nuevo producto."
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_commercial_partner_id
 #, fuzzy
 msgid "Commercial Entity"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Entidad Comercial\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Entidad comercial"
+msgstr "Entidad comercial"
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_res_company
@@ -569,11 +457,7 @@ msgstr "Compañía"
 #: code:addons/purchase/purchase.py:254
 #, fuzzy, python-format
 msgid "Compose Email"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Redactar Correo Electrónico\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Componer correo electrónico"
+msgstr "Componer correo electrónico"
 
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_purchase_config
@@ -606,11 +490,7 @@ msgstr "Control"
 #: model:ir.model.fields,field_description:purchase.field_product_template_purchase_method
 #, fuzzy
 msgid "Control Purchase Bills"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Controlar Facturas de Compra\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Controlar facturas compra"
+msgstr "Controlar facturas compra"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_config_settings_group_costing_method
@@ -651,21 +531,13 @@ msgstr "Fecha en la que este documento fue creado."
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_delay_pass
 #, fuzzy
 msgid "Days to Deliver"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Días para Entregar\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Días para entregar"
+msgstr "Días para entregar"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_delay
 #, fuzzy
 msgid "Days to Validate"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Días para Validar\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Días para validar"
+msgstr "Días para validar"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_picking_type_id
@@ -685,9 +557,6 @@ msgid ""
 "Depicts the date where the Quotation should be validated and converted into "
 "a purchase order."
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Haga clic para crear una SdC que se convierte en una orden de compra.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "Clica para crear una RFQ que se convierte en una orden de compra."
 
 #. module: purchase
@@ -707,11 +576,7 @@ msgstr "Tipo de destino de la ubicacion"
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_display_name
 #, fuzzy
 msgid "Display Name"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Nombre Mostrado\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Nombre mostrado"
+msgstr "Nombre mostrado"
 
 #. module: purchase
 #: selection:purchase.report,state:0
@@ -727,11 +592,7 @@ msgstr "Doble validación en compras"
 #: selection:purchase.order,state:0
 #, fuzzy
 msgid "Draft PO"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"OC Borrador\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"OC proforma"
+msgstr "OC proforma"
 
 #. module: purchase
 #: selection:purchase.report,state:0
@@ -748,10 +609,6 @@ msgstr "Dirección de Entrega"
 #, fuzzy
 msgid "Dropshipping"
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Dropshipping\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Entrega de mercancía"
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_mail_compose_message
@@ -777,11 +634,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_search
 #, fuzzy
 msgid "Extended Filters"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Filtro Avanzado\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Filtro avanzado"
+msgstr "Filtro avanzado"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_fiscal_position_id
@@ -789,11 +642,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_search
 #, fuzzy
 msgid "Fiscal Position"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Posición Fiscal\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Posición fiscal"
+msgstr "Posición fiscal"
 
 #. module: purchase
 #: selection:res.company,po_double_validation:0
@@ -830,10 +679,6 @@ msgstr "Ocultar líneas canceladas"
 #, fuzzy
 msgid "ID"
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"ID\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"ID (identificación)"
 
 #. module: purchase
 #: model:web.tip,description:purchase.purchase_tip_2
@@ -848,11 +693,7 @@ msgstr ""
 #: code:addons/purchase/purchase.py:186
 #, fuzzy, python-format
 msgid "In order to delete a purchase order, you must cancel it first."
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Para borrar una orden de compra, debe cancelarla primero.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Para borrar una orden de compra, debe cancelarlo primero."
+msgstr "Para borrar una orden de compra, debe cancelarlo primero."
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_config_settings_group_advance_purchase_requisition
@@ -861,11 +702,6 @@ msgid ""
 "In the process of a public tendering, you can compare the tender lines and "
 "choose for each requested product which quantity you will buy from each bid."
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"En el proceso de una licitación pública, usted puede comparar las líneas de "
-"licitación y elegir para cada producto solicitado qué cantidad usted va a "
-"comprar de cada oferta.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "En el proceso de una licitación pública, usted puede comparar las líneas de "
 "licitación y elegir para cada producto solicitado que la cantidad que usted "
 "va a comprar de cada oferta."
@@ -874,21 +710,13 @@ msgstr ""
 #: model:ir.ui.menu,name:purchase.menu_action_picking_tree_in_move
 #, fuzzy
 msgid "Incoming  Products"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Productos a Recibir\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Productos a recibir"
+msgstr "Productos a recibir"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
 #, fuzzy
 msgid "Incoming Shipments"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Conduces por Recibir\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Conduces por recibir"
+msgstr "Conduces por recibir"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_incoterm_id
@@ -913,41 +741,25 @@ msgstr "Factura"
 #: model:ir.model,name:purchase.model_account_invoice_line
 #, fuzzy
 msgid "Invoice Line"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Línea de Factura\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Línea de factura"
+msgstr "Línea de factura"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_invoice_lines
 #, fuzzy
 msgid "Invoice Lines"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Líneas de Factura\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Líneas de factura"
+msgstr "Líneas de factura"
 
 #. module: purchase
 #: selection:purchase.order,invoice_status:0
 #, fuzzy
 msgid "Invoice Received"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Factura Recibida\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Factura recibida"
+msgstr "Factura recibida"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_invoice_status
 #, fuzzy
 msgid "Invoice Status"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Estado Factura\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Estado factura"
+msgstr "Estado factura"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
@@ -964,11 +776,7 @@ msgstr "Facturas"
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
 #, fuzzy
 msgid "Invoices and Incoming Shipments"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Facturas y Recepciones\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Facturas y recepciones"
+msgstr "Facturas y recepciones"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_config_settings___last_update
@@ -996,31 +804,19 @@ msgstr "Última actualización en"
 #: model:ir.model.fields,field_description:purchase.field_res_company_po_double_validation
 #, fuzzy
 msgid "Levels of Approvals"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Niveles de Aprobaciones\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Los niveles de Aprobaciones"
+msgstr "Los niveles de Aprobaciones"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_configuration
 #, fuzzy
 msgid "Location & Warehouse"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Ubicación y Almacén\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Ubicación y almacén"
+msgstr "Ubicación y almacén"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
 #, fuzzy
 msgid "Lock Bills"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Facturas de Proveedor\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Facturas de proveedor"
+msgstr "Bloquear facturas"
 
 #. module: purchase
 #: selection:purchase.order,state:0
@@ -1046,11 +842,7 @@ msgstr "Responsable"
 #: model:ir.ui.view,arch_db:purchase.purchase_order_line_form2
 #, fuzzy
 msgid "Manual Invoices"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Facturas Manuales\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Facturas manuales"
+msgstr "Facturas manuales"
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_res_company_po_lead
@@ -1060,12 +852,6 @@ msgid ""
 "Orders for procuring products, they will be scheduled that many days earlier "
 "to cope with unexpected vendor delays."
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Margen de error para los plazos de entrega de proveedores. Cuando el sistema "
-"genera órdenes de compra para la adquisición de productos, se programará esa "
-"cantidad de días previos para hacer frente a los retrasos inesperados de los "
-"proveedores.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "Margen de error para los plazos de entrega de proveedores. Cuando el sistema "
 "genera órdenes de compra para la adquisición de productos, que se "
 "programarán de que muchos días anteriores para hacer frente a los retrasos "
@@ -1075,21 +861,13 @@ msgstr ""
 #: model:ir.model.fields,help:purchase.field_res_company_po_double_validation_amount
 #, fuzzy
 msgid "Minimum amount for which a double validation is required"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Monto mínimo para las que se requiere una doble validación\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Importe mínimo para las que se requiere una doble validación"
+msgstr "Importe mínimo para las que se requiere una doble validación"
 
 #. module: purchase
 #: model:ir.filters,name:purchase.filter_purchase_order_monthly_purchases
 #, fuzzy
 msgid "Monthly Purchases"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Compras Mensuales\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Compras mensuales"
+msgstr "Compras mensuales"
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.purchase_rfq
@@ -1105,21 +883,13 @@ msgstr ""
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 #, fuzzy
 msgid "New Mail"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Nuevo Correo\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Nuevo correo"
+msgstr "Nuevo correo"
 
 #. module: purchase
 #: selection:purchase.config.settings,group_product_variant:0
 #, fuzzy
 msgid "No variants on products"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Sin variantes en los productos\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Sin variaciones en los productos"
+msgstr "Sin variaciones en los productos"
 
 #. module: purchase
 #: code:addons/purchase/purchase.py:893
@@ -1134,11 +904,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 #, fuzzy
 msgid "Not Invoiced"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"No Facturado\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"No facturado"
+msgstr "No facturado"
 
 #. module: purchase
 #: selection:purchase.order,invoice_status:0
@@ -1175,31 +941,19 @@ msgstr "En cantidades recibidas"
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 #, fuzzy
 msgid "Order Date"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Fecha de Orden\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Fecha de la orden"
+msgstr "Fecha de la orden"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_order_line
 #, fuzzy
 msgid "Order Lines"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Líneas de Orden\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Líneas de la oden"
+msgstr "Líneas de la oden"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_search
 #, fuzzy
 msgid "Order Month"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Mes de Orden\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Mes de la orden"
+msgstr "Mes de la orden"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_order_id
@@ -1207,51 +961,31 @@ msgstr ""
 #: model:ir.ui.view,arch_db:purchase.purchase_order_line_search
 #, fuzzy
 msgid "Order Reference"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Referencia de Orden\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Referencia de la orden"
+msgstr "Referencia de la orden"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_state
 #, fuzzy
 msgid "Order Status"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Estado de Orden\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Estado de la Orden"
+msgstr "Estado de la Orden"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_search
 #, fuzzy
 msgid "Order of Day"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Orden del Día\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Orden del día"
+msgstr "Orden del día"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_search
 #, fuzzy
 msgid "Orders"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Ordenes\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Órdenes"
+msgstr "Órdenes"
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_mail_mail
 #, fuzzy
 msgid "Outgoing Mails"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Correos Salientes\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Correos salientes"
+msgstr "Correos salientes"
 
 #. module: purchase
 #: model:mail.template,report_name:purchase.email_template_edi_purchase_done
@@ -1263,31 +997,19 @@ msgstr "OC_${(object.name or '').replace('/','_')}"
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_partner_id
 #, fuzzy
 msgid "Partner"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Contacto\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Socio"
+msgstr "Socio"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_country_id
 #, fuzzy
 msgid "Partner Country"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"País Contacto\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"País Asociado"
+msgstr "País Asociado"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_search
 #, fuzzy
 msgid "Partner's Country"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"País del Contacto\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Socio del País"
+msgstr "Socio del País"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_payment_term_id
@@ -1305,11 +1027,7 @@ msgstr "Cuenta diferencia de precio"
 #: model:ir.filters,name:purchase.filter_purchase_order_price_per_supplier
 #, fuzzy
 msgid "Price Per Vendor"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Precio por Proveedor\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Precio por proveedor"
+msgstr "Precio por proveedor"
 
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_purchase_config_pricelist
@@ -1349,11 +1067,7 @@ msgstr "Producto"
 #: model:ir.ui.menu,name:purchase.menu_product_category_config_purchase
 #, fuzzy
 msgid "Product Categories"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Categorías de Productos\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Categorías de productos"
+msgstr "Categorías de productos"
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_product_category
@@ -1361,42 +1075,26 @@ msgstr ""
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_search
 #, fuzzy
 msgid "Product Category"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Categoría de Producto\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Categoría de producto"
+msgstr "Categoría de producto"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_unit_quantity
 #, fuzzy
 msgid "Product Quantity"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Cantidad de Producto\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Cantidad producto"
+msgstr "Cantidad producto"
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_product_template
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_product_tmpl_id
 #, fuzzy
 msgid "Product Template"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Plantilla de Producto\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Plantilla producto"
+msgstr "Plantilla producto"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_product_uom
 #, fuzzy
 msgid "Product Unit of Measure"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Unidad de Medida del Producto\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Unidad de medida del producto"
+msgstr "Unidad de medida del producto"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_config_settings_group_product_variant
@@ -1415,11 +1113,7 @@ msgstr "Productos"
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_price_standard
 #, fuzzy
 msgid "Products Value"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Valor Productos\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Valor productos"
+msgstr "Valor productos"
 
 #. module: purchase
 #: selection:purchase.config.settings,group_product_variant:0
@@ -1428,10 +1122,6 @@ msgid ""
 "Products can have several attributes, defining variants (Example: size, "
 "color,...)"
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Los productos pueden tener diversos atributos, definiendo variantes "
-"(Ejemplo: tamaño, color,...)\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "Los productos pueden tener diversos atributos, variantes de definición "
 "(Ejemplo: tamaño, color,...)"
 
@@ -1454,11 +1144,7 @@ msgstr "Compra"
 #: model:ir.actions.act_window,name:purchase.action_purchase_order_report_all
 #, fuzzy
 msgid "Purchase Analysis"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Análisis de Compra\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Análisis  de compra"
+msgstr "Análisis  de compra"
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.action_purchase_order_report_all
@@ -1468,12 +1154,6 @@ msgid ""
 "purchase history and performance. From this menu you can track your "
 "negotiation performance, the delivery performance of your vendors, etc."
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Análisis de Compra le permite comprobar fácilmente y analizar el historial "
-"de compras y rendimiento de su empresa. Desde este menú puede dar "
-"seguimiento a su rendimiento de negociación, el rendimiento de entrega de "
-"los proveedores, etc.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "Análisis de compra le permite comprobar fácilmente y analizar el historial "
 "de compras de la empresa y el rendimiento. Desde este menú puede realizar un "
 "seguimiento de su rendimiento negociación, el rendimiento de entrega de los "
@@ -1483,11 +1163,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase.field_res_company_po_lead
 #, fuzzy
 msgid "Purchase Lead Time"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Margen de Seguridad en Compra\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Plazo de tiempo de compra"
+msgstr "Plazo de tiempo de compra"
 
 #. module: purchase
 #: model:ir.actions.report.xml,name:purchase.action_report_purchase_order
@@ -1523,22 +1199,14 @@ msgstr "Orden de Compra Posición Fiscal"
 #: model:ir.ui.view,arch_db:purchase.purchase_order_line_form2
 #, fuzzy
 msgid "Purchase Order Line"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Línea Orden de Compra\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Línea orden de compra"
+msgstr "Línea orden de compra"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
 #: model:ir.ui.view,arch_db:purchase.purchase_order_line_tree
 #, fuzzy
 msgid "Purchase Order Lines"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Líneas Orden de Compra\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Líneas orden de compra"
+msgstr "Líneas orden de compra"
 
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.purchase_form_action
@@ -1572,10 +1240,6 @@ msgstr "Ordenes de compra que incluyen líneas no facturadas."
 msgid ""
 "Purchase propositions trigger draft purchase orders to a single supplier"
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Las proposiciones de compra crean una orden de compra borrador para un único "
-"proveedor.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "Compra proposiciones desencadenan proyectos de órdenes de compra a un solo "
 "proveedor"
 
@@ -1588,11 +1252,7 @@ msgstr "Comprar para reabastecer este almacén"
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_negociation
 #, fuzzy
 msgid "Purchase-Standard Price"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Precio Compra-Estándar\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Precio compra-estándar"
+msgstr "Precio compra-estándar"
 
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.action_purchase_line_product_tree
@@ -1605,11 +1265,7 @@ msgstr "Compras"
 #: model:ir.model,name:purchase.model_purchase_report
 #, fuzzy
 msgid "Purchases Orders"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Ordenes de Compras\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Ordenes de compras"
+msgstr "Ordenes de compras"
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_dest_address_id
@@ -1635,41 +1291,25 @@ msgstr "Presupuestos"
 #: model:mail.message.subtype,name:purchase.mt_rfq_approved
 #, fuzzy
 msgid "RFQ Approved"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Solicitud de Cotización Aprobada\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Solicitud de Cotización aprobada"
+msgstr "Solicitud de Cotización aprobada"
 
 #. module: purchase
 #: model:mail.message.subtype,name:purchase.mt_rfq_confirmed
 #, fuzzy
 msgid "RFQ Confirmed"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Solicitud de Cotización Confirmada\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Solicitud de Cotización confirmada"
+msgstr "Solicitud de Cotización confirmada"
 
 #. module: purchase
 #: model:mail.message.subtype,name:purchase.mt_rfq_done
 #, fuzzy
 msgid "RFQ Done"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Solicitud de Cotización Realizada\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Solicitud de Cotización realizada"
+msgstr "Solicitud de Cotización realizada"
 
 #. module: purchase
 #: selection:purchase.order,state:0 selection:purchase.report,state:0
 #, fuzzy
 msgid "RFQ Sent"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Solicitud de Cotización Enviada\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Solicitud de Cotización enviada"
+msgstr "Solicitud de Cotización enviada"
 
 #. module: purchase
 #: model:mail.template,report_name:purchase.email_template_edi_purchase
@@ -1685,41 +1325,25 @@ msgstr "SdC y Compras"
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
 #, fuzzy
 msgid "Re-Print RFQ"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Re-imprimir SdC\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Re-imprimir Solicitud de Cotización"
+msgstr "Re-imprimir Solicitud de Cotización"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
 #, fuzzy
 msgid "Re-Send RFQ by Email"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Reenviar SdC por correo electrónico\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Reenviar Solicitud de Cotización por correo electrónico"
+msgstr "Reenviar Solicitud de Cotización por correo electrónico"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
 #, fuzzy
 msgid "Receive Products"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Recibir Productos\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Recibir productos"
+msgstr "Recibir productos"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_qty_received
 #, fuzzy
 msgid "Received Qty"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Cant. Recibida\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Cant. recibida"
+msgstr "Cant. recibida"
 
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.purchase_open_picking
@@ -1738,11 +1362,7 @@ msgstr "Referencia"
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_product_uom
 #, fuzzy
 msgid "Reference Unit of Measure"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Unidad de Medida de Referencia\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Unidad de medida de referencia"
+msgstr "Unidad de medida de referencia"
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_origin
@@ -1751,10 +1371,6 @@ msgid ""
 "Reference of the document that generated this purchase order request (e.g. a "
 "sale order or an internal procurement request)"
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Referencia del documento que genera esta solicitud de orden de compra (por "
-"ejemplo, una orden de venta o una solicitud de aprovisionamiento interno)\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "Referencia del documento que genera esta petición de orden de compra (por "
 "ejemplo, una orden de venta o una solicitud de aprovisionamiento interno)"
 
@@ -1766,12 +1382,6 @@ msgid ""
 "matching when you receive the products as this reference is usually written "
 "on the delivery order sent by your vendor."
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Referencia de la orden de venta o la oferta enviada por el proveedor. Se "
-"utiliza para hacer la conciliación cuando usted recibe los productos, esta "
-"referencia se suele escribir en la orden de entrega enviada por el "
-"proveedor.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "Referencia de la orden de venta o la oferta enviada por el proveedor. Se "
 "utiliza para hacer el juego cuando usted recibe los productos, esta "
 "referencia se suele escribir en la orden de entrega enviado por el proveedor."
@@ -1798,11 +1408,7 @@ msgstr "Solicitud de Cotización"
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_move_ids
 #, fuzzy
 msgid "Reservation"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Reservación\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Reserva"
+msgstr "Reserva"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_create_uid
@@ -1816,11 +1422,7 @@ msgstr "Responsable"
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_date_planned
 #, fuzzy
 msgid "Scheduled Date"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Fecha Prevista\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Fecha prevista"
+msgstr "Fecha prevista"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_line_search
@@ -1842,11 +1444,7 @@ msgstr "Enviar SdC por correo electrónico"
 #: selection:purchase.config.settings,group_costing_method:0
 #, fuzzy
 msgid "Set a fixed cost price on each product"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Establecer un precio de costo fijo a cada producto\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Establecer un precio de costo fijo sobre cada producto"
+msgstr "Establecer un precio de costo fijo sobre cada producto"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -1855,11 +1453,6 @@ msgid ""
 "Set a purchase order as done if you don't want to receive vendor bills "
 "anymore for this purchase order."
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Si una orden de compra está realizada, ya no se puede modificar de forma "
-"manual. Usted no será capaz de recibir más facturas por esta orden de "
-"compra.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "Si una orden de compra se hace, no se puede modificar de forma manual más. "
 "Usted no será capaz de recibir las facturas más por esta orden de compra."
 
@@ -1867,11 +1460,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
 #, fuzzy
 msgid "Set to Draft"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Cambiar a Borrador\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Cambiar a borrador"
+msgstr "Cambiar a borrador"
 
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_purchase_general_settings
@@ -1887,11 +1476,7 @@ msgstr "Envío"
 #: selection:purchase.config.settings,group_advance_purchase_requisition:0
 #, fuzzy
 msgid "Simple call for tender (only choose from one RFQ)"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Llamado a licitación simple (sólo elija una SdC)\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Simple llamada a licitación (sólo elija una SdC)"
+msgstr "Simple llamada a licitación (sólo elija una SdC)"
 
 #. module: purchase
 #: selection:purchase.config.settings,group_uom:0
@@ -1906,11 +1491,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_origin
 #, fuzzy
 msgid "Source Document"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Documento Origen\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Documento origen"
+msgstr "Documento origen"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_state
@@ -1924,21 +1505,13 @@ msgstr "Estado"
 #: model:ir.model,name:purchase.model_stock_move
 #, fuzzy
 msgid "Stock Move"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Movimiento de Existencias\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Movimiento de existencias"
+msgstr "Movimiento de existencias"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_line_form2
 #, fuzzy
 msgid "Stock Moves"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Movimientos de Existencias\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Movimientos de existencias"
+msgstr "Movimientos de existencias"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_price_subtotal
@@ -1954,21 +1527,13 @@ msgstr "Moneda del Proveedor"
 #: model:ir.ui.menu,name:purchase.menu_product_pricelist_action2_purchase
 #, fuzzy
 msgid "Supplier Pricelist"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Tarifario de Proveedor\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Tarifa de proveedor"
+msgstr "Tarifa de proveedor"
 
 #. module: purchase
 #: selection:purchase.config.settings,module_stock_dropshipping:0
 #, fuzzy
 msgid "Suppliers always deliver to your warehouse(s)"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Proveedores siempre entregan a su almacén(es)\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Proveedores siempre entregar a su almacén (s)"
+msgstr "Proveedores siempre entregar a su almacén (s)"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_price_tax
@@ -2001,12 +1566,6 @@ msgid ""
 "data,\n"
 "            available vendors, etc."
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"El formulario del producto contiene información detallada para mejorar el\n"
-"proceso de compra: precios, logística de aprovisionamiento, datos "
-"contables,\n"
-"proveedores disponibles, etc.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "La forma del producto contiene información detallada para mejorar the\n"
 "proceso de compra: precios, logística de compras, lo que representa los "
 "datos,\n"
@@ -2020,11 +1579,6 @@ msgid ""
 "                you had with your vendor. Once confirmed, a request for\n"
 "                quotation is converted into a purchase order."
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"La cotización contiene el historial de la discusión/negociación\n"
-"que tuvo con su proveedor. Una vez confirmado, una solicitud de\n"
-"cotización es convertida en una orden de compra.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "La cotización contiene la historia de la discusión/negociación\n"
 "que tuvo con su proveedor. Una vez confirmado, un for petición\n"
 "la cita se convierte en una orden de compra."
@@ -2038,12 +1592,6 @@ msgid ""
 "control the receipt\n"
 "                    of the products and the vendor bill."
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"La solicitud de cotización es el primer paso del flujo de compras. Una vez\n"
-"convertida en una orden de compra, usted será capaz de controlar la "
-"recepción\n"
-"de los productos y la factura de proveedor.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "La solicitud de presupuesto es el primer paso del flujo de compras. Once\n"
 "convertida en una orden de compra, usted será capaz de controlar el receipt\n"
 "de los productos y la factura de proveedor."
@@ -2055,10 +1603,6 @@ msgid ""
 "This account will be used to value price difference between purchase price "
 "and accounting cost."
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Esta cuenta se utilizará para valorar la diferencia de precio entre el "
-"precio de compra y el costo contable.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "Esta cuenta se utilizará para valorar diferencia de precio entre el precio "
 "de compra y el costo contable."
 
@@ -2079,10 +1623,6 @@ msgid ""
 "This currency will be used, instead of the default one, for purchases from "
 "the current partner"
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Se utilizará esta moneda, en lugar de la predeterminada, para las compras "
-"del contacto actual\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "Se utilizará Esta moneda, en lugar de la predeterminada, para las compras de "
 "la pareja actual"
 
@@ -2103,11 +1643,7 @@ msgstr "Esto determinará el tipo de conduce de la recepción"
 #: selection:purchase.order,state:0 selection:purchase.report,state:0
 #, fuzzy
 msgid "To Approve"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Para Aprobar\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Para aprobar"
+msgstr "Para aprobar"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_amount_total
@@ -2119,11 +1655,7 @@ msgstr "Total"
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_price_total
 #, fuzzy
 msgid "Total Price"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Precio Total\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Precio total"
+msgstr "Precio total"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_tree
@@ -2134,11 +1666,7 @@ msgstr "Subtotal"
 #: model:ir.ui.view,arch_db:purchase.purchase_order_tree
 #, fuzzy
 msgid "Total amount"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Monto total\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Importe total"
+msgstr "Importe total"
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_stock_picking
@@ -2151,10 +1679,6 @@ msgstr "Transferir"
 msgid ""
 "Unable to cancel purchase order %s as some receptions have already been done."
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"No es posible cancelar las órdenes %s de compra si ya se han hecho algunas "
-"recepciones.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "No es posible cancelar las órdenes %s de compra que ya se han hecho algunas "
 "recepciones."
 
@@ -2165,10 +1689,6 @@ msgid ""
 "Unable to cancel this purchase order. You must first cancel related vendor "
 "bills."
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"No es posible cancelar esta orden de compra. Primero debe cancelar las "
-"facturas de los proveedores relacionadas.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "No es posible cancelar esta orden de compra. Primero debe cancelar las "
 "facturas de los proveedores relacionados."
 
@@ -2176,21 +1696,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_price_unit
 #, fuzzy
 msgid "Unit Price"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Precio Unitario\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Precio unitario"
+msgstr "Precio unitario"
 
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_purchase_uom_categ_form_action
 #, fuzzy
 msgid "Unit of Measure Categories"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Categorías de las Unidades de Medida\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Categorías de las unidades de medida"
+msgstr "Categorías de las unidades de medida"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_config_settings_group_uom
@@ -2198,41 +1710,25 @@ msgstr ""
 #: model:ir.ui.menu,name:purchase.menu_purchase_uom_form_action
 #, fuzzy
 msgid "Units of Measure"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Unidades de Medida\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Unidades de medida"
+msgstr "Unidades de medida"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_tree
 #, fuzzy
 msgid "Untaxed"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Sin Impuestos\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Base imponible"
+msgstr "Base imponible"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_amount_untaxed
 #, fuzzy
 msgid "Untaxed Amount"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Monto sin Impuestos\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Base imponible"
+msgstr "Base imponible"
 
 #. module: purchase
 #: selection:purchase.config.settings,group_costing_method:0
 #, fuzzy
 msgid "Use a 'Fixed', 'Real' or 'Average' price costing method"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Use un método de costo 'fijo' 'real' o 'promedio' para el precio\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Use un método de 'fijo' 'real' o 'media' para el precio que costo"
+msgstr "Use un método de 'fijo' 'real' o 'media' para el precio que costo"
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.action_invoice_pending
@@ -2243,12 +1739,6 @@ msgid ""
 "            and Odoo will fill the bill automatically according to ordered\n"
 "            or received quantities."
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Utilice este menú para controlar las facturas que se recibirán de su\n"
-"proveedor. Cuando se registra una nueva factura, defina la orden de\n"
-"compra y Odoo creará la factura automáticamente según las cantidades \n"
-"ordenadas o recibidas.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "Utilice este menú para controlar las facturas que se reciban de su\n"
 "proveedor. Cuando se registra un nuevo proyecto de ley, establezca la order "
 "de\n"
@@ -2265,12 +1755,6 @@ msgid ""
 "control\n"
 "                the products received and control the vendor bills."
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Utilice este menú para buscar entre sus órdenes de compra por\n"
-"referencias, proveedores, productos, etc. Para cada orden de compra, \n"
-"usted puede seguir la negociación relacionada con el proveedor, controlar\n"
-"los productos recibidos y controlar las facturas de los proveedores.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "Utilice este menú para buscar dentro de sus órdenes de compra por\n"
 "referencias, proveedores, productos, etc. Para cada orden de compra, \n"
 "usted puede seguir la discusión relacionada con el proveedor, control\n"
@@ -2305,41 +1789,25 @@ msgstr "Proveedor"
 #: model:ir.ui.view,arch_db:purchase.res_partner_view_purchase_account_buttons
 #, fuzzy
 msgid "Vendor Bills"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Facturas de Proveedor\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Facturas de proveedor"
+msgstr "Facturas de proveedor"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.res_partner_view_purchase_account_buttons
 #, fuzzy
 msgid "Vendor Bills."
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Facturas de Proveedor.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Facturas de proveedor."
+msgstr "Facturas de proveedor."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_config_settings_group_manage_vendor_price
 #, fuzzy
 msgid "Vendor Price"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Precios del Proveedor\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Precios del proveedor"
+msgstr "Precios del proveedor"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_partner_ref
 #, fuzzy
 msgid "Vendor Reference"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Referencia de Proveedor\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Referencia de proveedor"
+msgstr "Referencia de proveedor"
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.act_res_partner_2_supplier_invoices
@@ -2350,12 +1818,6 @@ msgid ""
 "                    you receive from your vendor according to the draft\n"
 "                    document in Odoo."
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Las facturas de los proveedores pueden ser pre-generadas basadas en\n"
-"ordenes o recibos. Esto le permite controlar las facturas\n"
-"que recibe de su proveedor de acuerdo con el documento\n"
-"borrador en Odoo.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "Facturas de los proveedores pueden ser pre-generados en base a purchase\n"
 "pedidos o recibos. Esto le permite controlar bills\n"
 "que recibe de su proveedor de acuerdo con la draft\n"
@@ -2381,11 +1843,7 @@ msgstr "Almacén"
 #: model:ir.model.fields,help:purchase.field_stock_warehouse_buy_to_resupply
 #, fuzzy
 msgid "When products are bought, they can be delivered to this warehouse"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Cuando se compran productos, pueden ser enviados a este almacén\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Cuando se compren productos, podrán ser enviados a este almacén"
+msgstr "Cuando se compren productos, podrán ser enviados a este almacén"
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_config_settings_group_product_variant
@@ -2394,11 +1852,6 @@ msgid ""
 "Work with product variant allows you to define some variant of the same "
 "products, an ease the product management in the ecommerce for example"
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Trabajar con variante de producto le permite definir alguna variante de los "
-"mismos productos , una facilidad de la gestión de productos en el comercio "
-"electrónico , por ejemplo.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "Trabaja con variante de producto le permite definir alguna variante de los "
 "mismos productos , una facilidad de la gestión de productos en el comercio "
 "electrónico , por ejemplo."
@@ -2410,10 +1863,6 @@ msgid ""
 "You can control the invoice from your vendor according to\n"
 "            what you purchased (services) or received (products)."
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Puede controlar la factura de su proveedor \n"
-"según lo que haya comprado (servicios) o recibido (productos).\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
 "Puedes controlar la factura de su proveedor to\n"
 "según lo que usted compró (servicios) o recibido (productos)."
 
@@ -2425,11 +1874,7 @@ msgid ""
 "            it's a physical product, a consumable or services you buy to\n"
 "            subcontractors."
 msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Debe definir un producto para todo lo que compra, así sea\n"
-"un producto físico, un consumible o servicios que usted compra a\n"
-"subcontratistas.\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
+
 "Debe definir un producto para todo lo que compra, whether\n"
 "es un producto físico, un consumible o servicios que usted compra to\n"
 "subcontratistas."
@@ -2438,11 +1883,7 @@ msgstr ""
 #: code:addons/purchase/purchase.py:335
 #, fuzzy, python-format
 msgid "You must set a Vendor Location for this partner %s"
-msgstr ""
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Debe asignar una Localización de Proveedor para este contacto %s\n"
-"#-#-#-#-#  es_DO.po (Odoo 9.0)  #-#-#-#-#\n"
-"Debe asignar una Localización de Proveedor para este partner %s"
+msgstr "Debe asignar una Localización de Proveedor para este partner %s"
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_purchase_config_settings
