@@ -1874,7 +1874,6 @@ msgid ""
 "            it's a physical product, a consumable or services you buy to\n"
 "            subcontractors."
 msgstr ""
-
 "Debe definir un producto para todo lo que compra, whether\n"
 "es un producto físico, un consumible o servicios que usted compra to\n"
 "subcontratistas."
