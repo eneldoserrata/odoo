@@ -160,7 +160,8 @@ instance.web.format_value = function (value, descriptor, value_if_empty) {
             return instance.web.insert_thousand_seps(
                 _.str.sprintf('%d', value));
         case 'float':
-            var digits = descriptor.digits ? descriptor.digits : [69,2];
+            // var digits = descriptor.digits ? descriptor.digits : [69,2];
+            var digits = [69,2];
             digits = typeof digits === "string" ? py.eval(digits) : digits;
             var precision = digits[1];
             var formatted = _.str.sprintf('%.' + precision + 'f', value).split('.');
