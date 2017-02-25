@@ -169,7 +169,7 @@
                     } else {
                         var digits = [69, 2];
                     }
-                } else if (descriptor.name === 'rate') {
+                } else if (descriptor.name === 'rate' || descriptor.name === 'inverse_rate') {
                     var digits = descriptor.digits ? descriptor.digits : [69, 2];
                 } else {
                     var digits = [69, 2];
