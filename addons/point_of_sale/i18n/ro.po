@@ -1263,7 +1263,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.fruits_vegetables
 msgid "Fruits and Vegetables"
-msgstr ""
+msgstr "Fructe și legume"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.view_pos_pos_form
@@ -2143,7 +2143,7 @@ msgstr "Plăți"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:898
 #, python-format
 msgid "Payments:"
-msgstr ""
+msgstr "Plăți:"
 
 #. module: point_of_sale
 #: model:product.product,name:point_of_sale.peche
@@ -2287,7 +2287,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_name
 msgid "Point of Sale Name"
-msgstr "Numele Punctului de Vanzare"
+msgstr "Numele Punctului de Vânzare"
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_pos_order
@@ -2299,12 +2299,12 @@ msgstr "Comenzi din Punctul de vânzare"
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_report_pos_order
 msgid "Point of Sale Orders Statistics"
-msgstr "Statistica Comenzi Punct de vanzare"
+msgstr "Statistica Comenzi Punct de vânzare"
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_pos_make_payment
 msgid "Point of Sale Payment"
-msgstr "Plata Punct de vanzare"
+msgstr "Plata Punct de vânzare"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.view_pos_session_form
@@ -2420,7 +2420,7 @@ msgstr "Tipăriți bon"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_iface_print_via_proxy
 msgid "Print via Proxy"
-msgstr "Imprima prin Proxy"
+msgstr "Tipăriți prin Proxy"
 
 #. module: point_of_sale
 #. openerp-web
@@ -2563,7 +2563,7 @@ msgstr "Rapoarte"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_settings_module_pos_reprint
 msgid "Reprints"
-msgstr "Retipariri"
+msgstr "Retipăriri"
 
 #. module: point_of_sale
 #. openerp-web
@@ -2611,7 +2611,7 @@ msgstr "Retur"
 #: model:ir.ui.view,arch_db:point_of_sale.report_saledetails
 #: model:ir.ui.view,arch_db:point_of_sale.view_pos_details_wizard
 msgid "Sale Details"
-msgstr "Detalii vanzare"
+msgstr "Detalii vânzare"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_journal_id
@@ -3418,7 +3418,7 @@ msgstr "Preț total"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:827
 #, python-format
 msgid "Total Taxes"
-msgstr ""
+msgstr "Total taxe"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_session_cash_register_total_entry_encoding
@@ -3556,7 +3556,7 @@ msgstr "Vauxoo.com"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_iface_vkeyboard
 msgid "Virtual KeyBoard"
-msgstr ""
+msgstr "Tastatură virtuală"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_report_pos_order_stock_location_id
@@ -3568,7 +3568,7 @@ msgstr "Depozit"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1320
 #, python-format
 msgid "Weighing"
-msgstr ""
+msgstr "Cântărire"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/barcode_rule.py:12
