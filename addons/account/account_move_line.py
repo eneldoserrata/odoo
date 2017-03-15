@@ -969,9 +969,9 @@ class account_move_line(osv.osv):
                 raise osv.except_osv(_('Warning!'), _('To reconcile the entries company should be the same for all entries.'))
             company_list.append(line.company_id.id)
         for line in unrec_lines:
-            if line.state <> 'valid':
-                raise osv.except_osv(_('Error!'),
-                        _('Entry "%s" is not valid !') % line.name)
+            # if line.state <> 'valid':
+            #     raise osv.except_osv(_('Error!'),
+            #             _('Entry "%s" is not valid !') % line.name)
             credit += line['credit']
             debit += line['debit']
             currency += line['amount_currency'] or 0.0
