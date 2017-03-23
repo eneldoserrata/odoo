@@ -164,12 +164,18 @@
             case 'float':
 
                 if (descriptor.hasOwnProperty("field_manager")) {
+
+
                     if (descriptor.field_manager.model == "res.currency") {
+                        var digits = descriptor.digits ? descriptor.digits : [69, 2];
+                    }
+                    else if (descriptor.field_manager.model == "account.voucher" && descriptor.name === 'payment_rate') {
                         var digits = descriptor.digits ? descriptor.digits : [69, 2];
                     } else {
                         var digits = [69, 2];
                     }
-                } else if (descriptor.name === 'rate' || descriptor.name === 'inverse_rate') {
+
+                } else if (descriptor.name === 'rate' || descriptor.name === 'inverse_rate' || descriptor.name === 'payment_rate') {
                     var digits = descriptor.digits ? descriptor.digits : [69, 2];
                 } else {
                     var digits = [69, 2];
