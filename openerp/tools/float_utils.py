@@ -193,7 +193,7 @@ if __name__ == "__main__":
                 for x in xrange(0,10000,97):
                     n = x * 10**magnitude
                     f = sign * (n + frac)
-                    f_exp = ('-' if f != 0 and sign == -1 else '') + str(n) + exp 
+                    f_exp = ('-' if f != 0 and sign == -1 else '') + str(n) + exp
                     try_round(f, f_exp, precision_digits=prec)
 
     stop = time.time()

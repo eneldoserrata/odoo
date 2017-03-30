@@ -1637,6 +1637,7 @@ class account_invoice_tax(models.Model):
     @api.model
     def move_line_get(self, invoice_id):
         res = []
+
         self._cr.execute(
             'SELECT * FROM account_invoice_tax WHERE invoice_id = %s',
             (invoice_id,)
@@ -1655,6 +1656,7 @@ class account_invoice_tax(models.Model):
                 'tax_amount': row['tax_amount'],
                 'account_analytic_id': row['account_analytic_id'],
             })
+
         return res
 
 
