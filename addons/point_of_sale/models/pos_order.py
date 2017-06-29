@@ -162,6 +162,7 @@ class PosOrder(models.Model):
             'origin': self.name,
             'account_id': self.partner_id.property_account_receivable_id.id,
             'journal_id': self.session_id.config_id.invoice_journal_id.id,
+            'company_id': self.company_id.id,
             'type': 'out_invoice',
             'reference': self.name,
             'partner_id': self.partner_id.id,
@@ -851,7 +852,8 @@ class PosOrderLine(models.Model):
             fiscal_position_id = line.order_id.fiscal_position_id
             if fiscal_position_id:
                 taxes = fiscal_position_id.map_tax(taxes, line.product_id, line.order_id.partner_id)
-            price = line.price_unit * (1 - (line.discount or 0.0) / 100.0)
+            price = self.env['account.tax']._fix_tax_included_price(
+                line.price_unit * (1 - (line.discount or 0.0) / 100.0), line.product_id.taxes_id, taxes)
             line.price_subtotal = line.price_subtotal_incl = price * line.qty
             if taxes:
                 taxes = taxes.compute_all(price, currency, line.qty, product=line.product_id, partner=line.order_id.partner_id or False)
