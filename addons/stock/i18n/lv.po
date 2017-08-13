@@ -3197,7 +3197,7 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_location_form
 msgid "Localization"
-msgstr ""
+msgstr "Lokalizācija"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_production_lot_form
@@ -6660,7 +6660,7 @@ msgstr ""
 #. module: stock
 #: selection:stock.location,usage:0
 msgid "View"
-msgstr ""
+msgstr "Skatīt"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_quant_package_form

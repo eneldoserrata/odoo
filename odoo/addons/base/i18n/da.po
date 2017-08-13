@@ -6307,7 +6307,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,summary:base.module_board
 msgid "Create your custom dashboard"
-msgstr ""
+msgstr "Opret dit personlige dashboard"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_act_server_crud_model_id
@@ -6661,6 +6661,8 @@ msgid ""
 "Customized views are used when users reorganize the content of their "
 "dashboard views (via web client)"
 msgstr ""
+"Personlige visninger anvendes når brugere reorganiserer visningen af "
+"indholdet i deres dashboard (via web klient)"
 
 #. module: base
 #: model:res.country,name:base.cy
@@ -6677,7 +6679,7 @@ msgstr "Tjekkiet"
 #: model:ir.ui.menu,name:base.menu_board_root
 #: model:ir.ui.menu,name:base.menu_reporting_dashboard
 msgid "Dashboards"
-msgstr ""
+msgstr "Dashboards"
 
 #. module: base
 #: model:ir.module.module,description:base.module_test_convert
@@ -9665,7 +9667,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,summary:base.module_stock_landed_costs
 msgid "Landed Costs"
-msgstr "Anskaffelsespriser"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_base_language_export_lang
@@ -11249,7 +11251,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_web_settings_dashboard
 msgid "Odoo Settings Dashboard"
-msgstr ""
+msgstr "Odoo dashboard for indstillinger"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_web_diagram
@@ -13096,10 +13098,10 @@ msgid ""
 "Selecting \"Blocking Message\" will throw an exception with the message and "
 "block the flow. The Message has to be written in the next field."
 msgstr ""
-"Hvis du vælger indstillingen \"Advarsel\", vises denne meddelelsen til "
-"brugeren. Hvis du vælger \"Blokerende meddelelse\", vil der blive sendt en "
-"undtagelse ud sammen meddelelsen og blokere strømmen. Meddelelsen skal "
-"skrives i det næste felt."
+"Hvis du vælger indstillingen \"Advarsel\", vises meddelelsen til brugeren. "
+"Hvis du vælger \"Blokerende meddelelse\", vil der blive sendt en undtagelse "
+"sammen med meddelelsen og blokere flowet. Meddelelsen skal skrives i det "
+"næste felt."
 
 #. module: base
 #: selection:ir.property,type:0 selection:ir.translation,type:0
