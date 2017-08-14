@@ -155,6 +155,7 @@
                 return value_if_empty === undefined ? '' : value_if_empty;
         }
         var l10n = _t.database.parameters;
+        // eneldo monkey pacth
         switch (descriptor.widget || descriptor.type || (descriptor.field && descriptor.field.type)) {
             case 'id':
                 return value.toString();
@@ -175,10 +176,10 @@
                         var digits = [69, 2];
                     }
 
-                } else if (descriptor.name === 'rate' || descriptor.name === 'inverse_rate' || descriptor.name === 'payment_rate') {
+                } else if (descriptor.name === 'rate' || descriptor.name === 'inverse_rate' || descriptor.name === 'payment_rate' || descriptor.name === 'amount_fix') {
                     var digits = descriptor.digits ? descriptor.digits : [69, 2];
                 } else {
-                    var digits = [69, 2];
+                    var digits = descriptor.digits ? descriptor.digits : [69, 2];
                 }
 
                 digits = typeof digits === "string" ? py.eval(digits) : digits;
