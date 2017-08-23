@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-26 14:46+0000\n"
-"PO-Revision-Date: 2017-06-26 14:46+0000\n"
+"POT-Creation-Date: 2017-07-18 14:21+0000\n"
+"PO-Revision-Date: 2017-07-18 14:21+0000\n"
 "Last-Translator: waveyeung <waveyeung@qq.com>, 2017\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -146,6 +146,8 @@ msgid ""
 "<span class=\"fa fa-2x fa-credit-card\"/>\n"
 "                                                Saved Cards"
 msgstr ""
+"<span class=\"fa fa-2x fa-credit-card\"/>\n"
+"                                                保存卡片"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.product
@@ -505,7 +507,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<strong>Mandatory content</strong><br/>"
-msgstr "<strong>必要内容</strong><br/>"
+msgstr "<strong>强制内容</strong><br/>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -854,6 +856,16 @@ msgid "Catalog"
 msgstr ""
 
 #. module: website_sale
+#: model:ir.ui.view,arch_db:website_sale.sort
+msgid "Catalog price: decreasing order"
+msgstr ""
+
+#. module: website_sale
+#: model:ir.ui.view,arch_db:website_sale.sort
+msgid "Catalog price: increasing order"
+msgstr ""
+
+#. module: website_sale
 #: model:ir.actions.act_window,help:website_sale.product_public_category_action
 msgid ""
 "Categories are used to browse your products through the\n"
@@ -1122,6 +1134,13 @@ msgid ""
 "Depending on your state or country, you are required to collect sales taxes "
 "with either the rate at buyer’s address (destination-based) or the rate "
 "effective at your office or warehouse's address (origin-based)."
+msgstr ""
+
+#. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_website_description
+#: model:ir.model.fields,field_description:website_sale.field_product_product_website_description
+#: model:ir.model.fields,field_description:website_sale.field_product_template_website_description
+msgid "Description for the website"
 msgstr ""
 
 #. module: website_sale
@@ -1809,16 +1828,6 @@ msgid "Price"
 msgstr "价格"
 
 #. module: website_sale
-#: model:ir.ui.view,arch_db:website_sale.sort
-msgid "Catalog price: decreasing order"
-msgstr ""
-
-#. module: website_sale
-#: model:ir.ui.view,arch_db:website_sale.sort
-msgid "Catalog price: increasing order"
-msgstr ""
-
-#. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website_pricelist_ids
 msgid "Price list available for this Ecommerce/Website"
 msgstr "价目表可用于此电子商务/网站"
@@ -2477,7 +2486,7 @@ msgstr "Temando 集成"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Terms &amp; Conditions"
-msgstr "方式  &amp; 条件"
+msgstr "条款& 条件"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.terms
@@ -2630,7 +2639,7 @@ msgstr "为每个客户使用价格表来适配你的价格"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.cart_popover
 msgid "View Cart ("
-msgstr "显示购物车("
+msgstr "查看购物车("
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_website_published
@@ -2686,6 +2695,7 @@ msgid "Website Public Categories"
 msgstr "网站公众种类"
 
 #. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_website_sequence
 #: model:ir.model.fields,field_description:website_sale.field_product_product_website_sequence
 #: model:ir.model.fields,field_description:website_sale.field_product_template_website_sequence
 msgid "Website Sequence"
@@ -2697,32 +2707,38 @@ msgid "Website Shop"
 msgstr "购物网站"
 
 #. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_website_url
 #: model:ir.model.fields,field_description:website_sale.field_product_product_website_url
 msgid "Website URL"
 msgstr "网站网址"
 
 #. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_website_meta_description
 #: model:ir.model.fields,field_description:website_sale.field_product_product_website_meta_description
 msgid "Website meta description"
 msgstr "网站meta说明"
 
 #. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_website_meta_keywords
 #: model:ir.model.fields,field_description:website_sale.field_product_product_website_meta_keywords
 msgid "Website meta keywords"
 msgstr "网站meta关键词"
 
 #. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_website_meta_title
 #: model:ir.model.fields,field_description:website_sale.field_product_product_website_meta_title
 msgid "Website meta title"
 msgstr "网站meta标题"
 
 #. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_website_price
 #: model:ir.model.fields,field_description:website_sale.field_product_product_website_price
 #: model:ir.model.fields,field_description:website_sale.field_product_template_website_price
 msgid "Website price"
 msgstr "网站价格"
 
 #. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_delivery_carrier_website_public_price
 #: model:ir.model.fields,field_description:website_sale.field_product_product_website_public_price
 #: model:ir.model.fields,field_description:website_sale.field_product_template_website_public_price
 msgid "Website public price"
@@ -2877,11 +2893,6 @@ msgstr "项目)"
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "or"
 msgstr "或"
-
-#. module: website_sale
-#: model:ir.ui.view,arch_db:website_sale.products
-msgid "pagination form-inline o_website_sale_search"
-msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
