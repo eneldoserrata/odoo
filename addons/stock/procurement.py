@@ -462,12 +462,13 @@ class procurement_order(osv.osv):
         '''
         Create procurement based on Orderpoint
 
-        :param bool use_new_cursor: if set, use dedicated cursors and auto-commit after processing
-            1000 orderpoints.
+        :param bool use_new_cursor: if set, use a dedicated cursor and auto-commit after processing each procurement.
             This is appropriate for batch jobs only.
         '''
         if context is None:
             context = {}
+        if use_new_cursor:
+            cr = openerp.registry(cr.dbname).cursor()
         orderpoint_obj = self.pool.get('stock.warehouse.orderpoint')
         procurement_obj = self.pool.get('procurement.order')
         product_obj = self.pool.get('product.product')
@@ -479,8 +480,6 @@ class procurement_order(osv.osv):
         while orderpoint_ids:
             ids = orderpoint_ids[:1000]
             del orderpoint_ids[:1000]
-            if use_new_cursor:
-                cr = openerp.registry(cr.dbname).cursor()
             product_dict = {}
             ops_dict = {}
             ops = orderpoint_obj.browse(cr, uid, ids, context=context)
@@ -547,10 +546,12 @@ class procurement_order(osv.osv):
 
             if use_new_cursor:
                 cr.commit()
-                cr.close()
             if prev_ids == ids:
                 break
             else:
                 prev_ids = ids
 
+        if use_new_cursor:
+            cr.commit()
+            cr.close()
         return {}

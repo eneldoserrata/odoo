@@ -1050,6 +1050,17 @@ openerp.point_of_sale.load_models = function load_models(instance, module){ //mo
                 return this.get_unit_price();
             }
         },
+        get_unit_display_price: function(){
+            if (this.pos.config.iface_tax_included) {
+                var quantity = this.quantity;
+                this.quantity = 1.0;
+                var price = this.get_all_prices().priceWithTax;
+                this.quantity = quantity;
+                return price;
+            } else {
+                return this.get_unit_price();
+            }
+        },
         get_base_price:    function(){
             var rounding = this.pos.currency.rounding;
             return round_pr(this.get_unit_price() * this.get_quantity() * (1 - this.get_discount()/100), rounding);
