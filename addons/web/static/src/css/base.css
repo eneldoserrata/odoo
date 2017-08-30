@@ -2802,7 +2802,7 @@
 .openerp pre {
   background-color: #FFFFFF;
   border: none;
-  padding: 10px 0 3px 0;
+  padding: 10px 0 3px 10px !important;
 }
 .openerp h5 {
   font-weight: bold;
