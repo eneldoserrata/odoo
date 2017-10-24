@@ -753,16 +753,16 @@ class Database(http.Controller):
             return {'error': _('Could not drop database !'), 'title': _('Drop Database')}
 
     @http.route('/web/database/backup', type='http', auth="none")
-    def backup(self, backup_db, backup_pwd, token, backup_format='zip'):
+    def backup(self, backup_db, backup_pwd, token, backup_format='zip', format='zip'):
         try:
             openerp.service.security.check_super(backup_pwd)
             ts = datetime.datetime.utcnow().strftime("%Y-%m-%d_%H-%M-%S")
-            filename = "%s_%s.%s" % (backup_db, ts, backup_format)
+            filename = "%s_%s.%s" % (backup_db, ts, "zip")
             headers = [
                 ('Content-Type', 'application/octet-stream; charset=binary'),
                 ('Content-Disposition', content_disposition(filename)),
             ]
-            dump_stream = openerp.service.db.dump_db(backup_db, None, backup_format)
+            dump_stream = openerp.service.db.dump_db(backup_db, None, "zip")
             response = werkzeug.wrappers.Response(dump_stream, headers=headers, direct_passthrough=True)
             response.set_cookie('fileToken', token)
             return response
