@@ -13,13 +13,14 @@
 # jonas jensen <j.jensen@tcomp.dk>, 2016
 # Pernille Kristensen <pernillekristensen1994@gmail.com>, 2017
 # Ejner Sønniksen <ejner@vkdata.dk>, 2017
+# JonathanStein <jstein@image.dk>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 13:28+0000\n"
 "PO-Revision-Date: 2017-06-23 13:28+0000\n"
-"Last-Translator: Ejner Sønniksen <ejner@vkdata.dk>, 2017\n"
+"Last-Translator: JonathanStein <jstein@image.dk>, 2017\n"
 "Language-Team: Danish (https://www.transifex.com/odoo/teams/41243/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,6 +44,8 @@ msgid ""
 "% <br/>\n"
 "                                            <strong>Clicks</strong>"
 msgstr ""
+"% <br/>\n"
+"                                            <strong>Antal klik</strong>"
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_campaign_kanban
@@ -50,6 +53,8 @@ msgid ""
 "%<br/>\n"
 "                                            <strong>Replied</strong>"
 msgstr ""
+"%<br/>\n"
+"                                            <strong>Svaret</strong>"
 
 #. module: mass_mailing
 #: code:addons/mass_mailing/models/mass_mailing.py:431
@@ -402,7 +407,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_kanban
 msgid "Clicks"
-msgstr ""
+msgstr "Klik"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_campaign_color
@@ -942,7 +947,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_campaign_kanban
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_search
 msgid "Mailings"
-msgstr "Mailings"
+msgstr "Udsendelser"
 
 #. module: mass_mailing
 #: model:res.groups,name:mass_mailing.group_mass_mailing_campaign
@@ -957,7 +962,7 @@ msgstr ""
 #. module: mass_mailing
 #: model:mail.mass_mailing.tag,name:mass_mailing.mass_mail_tag_1
 msgid "Marketing"
-msgstr ""
+msgstr "Markedsføring"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_statistics_report_name
@@ -1143,7 +1148,7 @@ msgstr "Ingen support"
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_clicks_ratio
 msgid "Number of Clicks"
-msgstr ""
+msgstr "Antal klik"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_list_contact_nbr
@@ -1334,7 +1339,7 @@ msgstr ""
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_reply_to
 msgid "Reply To"
-msgstr ""
+msgstr "Svar til"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_reply_to_mode
@@ -1452,7 +1457,7 @@ msgstr "Send til alle"
 #: selection:mail.mass_mailing,state:0
 #, python-format
 msgid "Sending"
-msgstr ""
+msgstr "Sender"
 
 #. module: mass_mailing
 #: code:addons/mass_mailing/models/mass_mailing.py:439
@@ -1470,17 +1475,17 @@ msgstr "Sendt"
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_search
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_statistics_report_search
 msgid "Sent By"
-msgstr ""
+msgstr "Sendt af"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_sent_date
 msgid "Sent Date"
-msgstr ""
+msgstr "Udsendelsesdato"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_campaign_sent
 msgid "Sent Emails"
-msgstr ""
+msgstr "Sendte e-mails"
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_search
@@ -1738,7 +1743,7 @@ msgstr ""
 #: code:addons/mass_mailing/controllers/main.py:26
 #, python-format
 msgid "You have been unsubscribed successfully"
-msgstr ""
+msgstr "Du er blevet afmeldt vores mailliste. "
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_banner

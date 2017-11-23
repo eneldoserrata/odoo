@@ -390,9 +390,13 @@ class StockMove(models.Model):
         if not self.product_id or self.product_qty < 0.0:
             self.product_qty = 0.0
         if self.product_qty < self._origin.product_qty:
-            return {'warning': _("By changing this quantity here, you accept the "
-                                 "new quantity as complete: Odoo will not "
-                                 "automatically generate a back order.")}
+            warning_mess = {
+                'title': _('Quantity decreased!'),
+                'message' : _("By changing this quantity here, you accept the "
+                              "new quantity as complete: Odoo will not "
+                              "automatically generate a back order."),
+            }
+            return {'warning': warning_mess}
 
     @api.onchange('product_id')
     def onchange_product_id(self):
@@ -658,6 +662,15 @@ class StockMove(models.Model):
         if not no_prepare:
             self.check_recompute_pack_op()
 
+    def _propagate_cancel(self):
+        self.ensure_one()
+        if self.move_dest_id:
+            if self.propagate:
+                self.move_dest_id.action_cancel()
+            elif self.move_dest_id.state == 'waiting':
+                # If waiting, the chain will be broken and we are not sure if we can still wait for it (=> could take from stock instead)
+                self.move_dest_id.write({'state': 'confirmed'})
+
     @api.multi
     def action_cancel(self):
         """ Cancels the moves and if all moves are cancelled it cancels the picking. """
@@ -674,12 +687,7 @@ class StockMove(models.Model):
                     pass
                     # procurements.search([('move_dest_id', '=', move.id)]).cancel()
             else:
-                if move.move_dest_id:
-                    if move.propagate:
-                        move.move_dest_id.action_cancel()
-                    elif move.move_dest_id.state == 'waiting':
-                        # If waiting, the chain will be broken and we are not sure if we can still wait for it (=> could take from stock instead)
-                        move.move_dest_id.write({'state': 'confirmed'})
+                move._propagate_cancel()
                 if move.procurement_id:
                     procurements |= move.procurement_id
 
@@ -919,6 +927,11 @@ class StockMove(models.Model):
             raise UserError(_('You can only delete draft moves.'))
         return super(StockMove, self).unlink()
 
+    def _propagate_split(self, new_move, qty):
+        if self.move_dest_id and self.propagate and self.move_dest_id.state not in ('done', 'cancel'):
+            new_move_prop = self.move_dest_id.split(qty)
+            new_move.write({'move_dest_id': new_move_prop})
+
     @api.multi
     def split(self, qty, restrict_lot_id=False, restrict_partner_id=False):
         """ Splits qty from move move into a new move
@@ -959,13 +972,10 @@ class StockMove(models.Model):
         # TDE CLEANME: used only in write in this file, to clean
         # ctx['do_not_propagate'] = True
         self.with_context(do_not_propagate=True, rounding_method='HALF-UP').write({'product_uom_qty': self.product_uom_qty - uom_qty})
-        
-        if self.move_dest_id and self.propagate and self.move_dest_id.state not in ('done', 'cancel'):
-            new_move_prop = self.move_dest_id.split(qty)
-            new_move.write({'move_dest_id': new_move_prop})
+        self._propagate_split(new_move, qty)
         # returning the first element of list returned by action_confirm is ok because we checked it wouldn't be exploded (and
         # thus the result of action_confirm should always be a list of 1 element length)
-        new_move.action_confirm()
+        new_move = new_move.action_confirm()
         # TDE FIXME: due to action confirm change
         return new_move.id
 
