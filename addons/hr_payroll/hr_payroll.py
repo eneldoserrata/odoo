@@ -862,6 +862,7 @@ result = rules.NET > categories.NET * 0.10''',
                 eval(rule.amount_python_compute, localdict, mode='exec', nocopy=True)
                 return float(localdict['result']), 'result_qty' in localdict and localdict['result_qty'] or 1.0, 'result_rate' in localdict and localdict['result_rate'] or 100.0
             except:
+                import pdb; pdb.set_trace()
                 raise osv.except_osv(_('Error!'), _('Wrong python code defined for salary rule %s (%s).')% (rule.name, rule.code))
 
     def satisfy_condition(self, cr, uid, rule_id, localdict, context=None):
