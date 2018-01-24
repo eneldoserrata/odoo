@@ -1652,7 +1652,7 @@ msgstr "E-posti alias"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type_mail_template_id
 msgid "Email Template"
-msgstr ""
+msgstr "E-kirja näidis"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.edit_project
@@ -3790,7 +3790,7 @@ msgstr "Ülesanded"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "to describe<br/> your experience or to suggest improvements !"
-msgstr ""
+msgstr "kirjeldamaks <br/> sinu kogemusi või tegema parandusettepanekuid!"
 
 #. module: project
 #: model:ir.actions.act_window,help:project.open_view_project_all
