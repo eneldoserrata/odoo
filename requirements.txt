@@ -29,7 +29,7 @@ python-ldap==2.4.19
 python-openid==2.2.5
 pytz==2014.10
 pyusb==1.0.0b2
-qrcode==5.1
+qrcode
 reportlab==3.1.44
 requests==2.6.0
 simplejson==3.6.5
@@ -40,3 +40,6 @@ vatnumber==1.2
 vobject==0.6.6
 wsgiref==0.1.2
 xlwt==0.7.5
+ofxparse
+qrcode
+
