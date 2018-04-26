@@ -1631,7 +1631,7 @@ class LessStylesheetAsset(PreprocessedCSS):
             lessc = 'lessc'
         webpath = openerp.http.addons_manifest['web']['addons_path']
         lesspath = os.path.join(webpath, 'web', 'static', 'lib', 'bootstrap', 'less')
-        return [lessc, '-', '--clean-css', '--js', '--no-color', '--include-path=%s' % lesspath]
+        return [lessc, '-', '--less-plugin-clean-css.clean-css', '--js', '--no-color', '--include-path=%s' % lesspath]
         # return [lessc, '-', '--clean-css', '--no-js', '--no-color', '--include-path=%s' % lesspath]
 
 def rjsmin(script):
