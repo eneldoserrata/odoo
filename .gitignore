@@ -1,5 +1,4 @@
-# sphinx build directories
-_build/
+
 
 # dotfiles
 .*
@@ -23,12 +22,3 @@ openerp/addons/base/maintenance
 install/win32/*.bat
 install/win32/meta.py
 
-# various virtualenv
-/bin/
-/build/
-/dist/
-/include/
-/lib/
-/man/
-/share/
-/src/
