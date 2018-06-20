@@ -199,10 +199,10 @@ class ir_sequence(models.Model):
         return super(ir_sequence, self).write(values)
 
     def _next_do(self):
-        if self.implementation == 'standard':
-            number_next = _select_nextval(self.env.cr, 'ir_sequence_%03d' % self.id)
-        else:
-            number_next = _update_nogap(self, self.number_increment)
+        # if self.implementation == 'standard':
+        number_next = _select_nextval(self.env.cr, 'ir_sequence_%03d' % self.id)
+        # else:
+        #     number_next = _update_nogap(self, self.number_increment)
         return self.get_next_char(number_next)
 
     def get_next_char(self, number_next):
