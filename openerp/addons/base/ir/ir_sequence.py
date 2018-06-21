@@ -195,14 +195,14 @@ class ir_sequence(models.Model):
                 else:
                     _create_sequence(self.env.cr, "ir_sequence_%03d" % seq.id, i, n)
                     for sub_seq in seq.date_range_ids:
-                        _create_sequence(self.env.cr, "ir_sequence_%03d_%03d" % (seq.id, sub_seq.id), i, n)
+                        _create_sequence(self.env.cr, "ir_sequence_%03d_%03d" % (seq.id, sub_seq.id), i, sub_seq.number_next)
         return super(ir_sequence, self).write(values)
 
     def _next_do(self):
-        # if self.implementation == 'standard':
-        number_next = _select_nextval(self.env.cr, 'ir_sequence_%03d' % self.id)
-        # else:
-        #     number_next = _update_nogap(self, self.number_increment)
+        if self.implementation == 'standard':
+            number_next = _select_nextval(self.env.cr, 'ir_sequence_%03d' % self.id)
+        else:
+            number_next = _update_nogap(self, self.number_increment)
         return self.get_next_char(number_next)
 
     def get_next_char(self, number_next):
